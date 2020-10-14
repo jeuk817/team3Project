@@ -1,5 +1,5 @@
 @font-face {
-  src: url("font/Piazzolla-Italic-VariableFont_opsz\,wght.ttf");
+  src: url("../font/Piazzolla-Italic-VariableFont_opsz\,wght.ttf");
   font-family: 'Piazzolla-Italic-VariableFont_opsz';
 }
 
@@ -154,7 +154,7 @@ svg {
 }
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url("images/1.jpg");
+  background-image: url("../images/1.jpg");
 }
 .slide:nth-child(1) .slide__overlay-path {
   fill: #80d484;
@@ -184,7 +184,7 @@ svg {
 }
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url("images/3.jpg");
+  background-image: url("../images/3.jpg");
 }
 .slide:nth-child(3) .slide__overlay-path {
   fill: #adc5cd;
@@ -199,7 +199,7 @@ svg {
 }
 .slide:nth-child(4) .slide__bg {
   left: -150%;
-  background-image: url("images/4.jpg");
+  background-image: url("../images/4.jpg");
 }
 .slide:nth-child(4) .slide__overlay-path {
   fill: #c7b35ab2;
@@ -214,7 +214,7 @@ svg {
 }
 .slide:nth-child(5) .slide__bg {
   left: -200%;
-  background-image: url("images/5.jpg");
+  background-image: url("../images/5.jpg");
 }
 .slide:nth-child(5) .slide__overlay-path {
   fill: #eb9aa7;
@@ -229,7 +229,7 @@ svg {
 }
 .slide:nth-child(6) .slide__bg {
   left: -250%;
-  background-image: url("images/6.jpg");
+  background-image: url("../images/6.jpg");
 }
 .slide:nth-child(6) .slide__overlay-path {
   fill: #e0ade0;
