@@ -1,0 +1,27 @@
+.jumbotron{
+    text-align: center;
+}
+
+.welcom{
+    text-align: center;
+    font-family: "Droid Serif";
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.jumbotron-heading{
+    text-align: center;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+}
+
+
+.container .btn{
+    color: white;
+    background-color: #fed136;
+    border-color: #fed136;
+}
