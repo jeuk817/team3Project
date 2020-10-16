@@ -1,0 +1,30 @@
+.naviContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 24px;
+    align-items: center;
+    color: gray;
+}
+
+.centerAlignCol{
+    display: grid;
+    justify-items: center;
+}
+
+.naviRight{
+    display: grid;
+    justify-items: end;
+    gap: 0 20px;
+}
+#homeIcon{
+    font-size: 36px;
+    color: gray;
+}
+
+.bookmarks{
+    list-style: none;
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
