@@ -1,83 +1,52 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-    *{
-        font: 20px Montserrat, sans-serif;
-    }
-    header{
-        padding: 5px 0px 0px 0px;
-        font: 50px Montserrat;
-        min-height:50px;
-        background-image:linear-gradient(90deg,#1e3e96,#667cc5);
-        box-shadow: 0px 10px 25px rgba(66, 123, 180, 0.65);
-        text-align: center;
-        color: rgb(198, 215, 230);
-    }
-    .nav{
-        text-align: left;
-    }
-    #dd{
-        text-align: right;       
-        
-        
-    }
-    .dropdown-menu>li>a {
-        float: right;
-        display: block;
-        padding: 3px 0px 0px 0px;
-        clear: both;
-        font-weight: 400;
-        line-height: 1.42857143;
-        color: #333;
-        white-space: nowrap;
-    }
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme The Band</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="main.jsp.css">
   
-    
-</style>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">        
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
 </head>
 <body>
-    <header>
-        개인페이지 만들기
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="C:\Users\user\Desktop\web\document\TeamPJT\main.html" class="btn btn-default btn-lg">
-                    <span class="glyphicon glyphicon-home"></span> Home
-                  </a>
-              </div>
-              <ul class="nav navbar-nav">                   
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Daily</a></li>
-                <li><a href="main.html">MainPage</a></li>
-              </ul>
-              <div class="container" id="dd">
-                <div class="dropdown">
-              <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-                  <span class="glyphicon glyphicon-user" id="user">Others</span>
-                </button>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
-                    <li role="presentation" class="divider"></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
-                  </ul>
-                </div>
-                </div>
-            </div>
-          </nav>
-    </header>
-    <section>section1</section>
-    <aside position:fixed;>aside</aside>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="Main.html"><span class="glyphicon glyphicon-home"></span>HOME</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Main.jsp">Main Page</a></li>
+        <li><a href="https://ilikemediumrare.tistory.com/">BLOG</a></li>
+        <li><a href="photo.jsp">PHOTO</a></li>
+        <li><a href="aboutme.jsp">ABOUT ME</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">OTHERS
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">제욱</a></li>
+            <li><a href="#">푸름</a></li>
+            <li><a href="#">용선</a></li>
+            <li><a href="#">소희</a></li>
+            <li><a href="#">종현</a></li> 
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 </body>
 </html>
