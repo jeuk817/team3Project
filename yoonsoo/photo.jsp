@@ -22,20 +22,20 @@
 
                 <div class="mySlides fade">
                   <div class="numbertext">1 / 3</div>
-                  <img src="images/1.jpg" style="width:100%">
-                  <div class="text">Caption Text</div>
+                  <img src="smell.jpg" style="width:100%">
+                  <div class="text">cat&dog</div>
                 </div>
                 
                 <div class="mySlides fade">
                   <div class="numbertext">2 / 3</div>
                   <img src="images/somi.jpg" style="width:100%">
-                  <div class="text">Caption Two</div>
+                  <div class="text">Cute Cat</div>
                 </div>
                 
                 <div class="mySlides fade">
                   <div class="numbertext">3 / 3</div>
-                  <img src="images/ta.jpg" style="width:100%">
-                  <div class="text">Caption Three</div>
+                  <img src="yoonsoo.image/mrpizza.jpg" style="width:100%">
+                  <div class="text">pizza</div>
                 </div>
                 
                 </div>

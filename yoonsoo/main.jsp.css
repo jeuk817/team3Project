@@ -1,7 +1,36 @@
 body{
 	
-  	background-color: black;
+  	background-image: url('yoonsoo.image/giphy.gif');
     padding:100px 0px 0px 0px;
+    color: #f1f1f1;
+}
+.column{
+  float: left;
+  width:33.3%;
+  padding: 15px;
+  
+  
+}
+@media screen and (max-width:960px){
+.column{
+  float: left;
+  width:100%;   
+}
+
+}
+iframe{
+  display: block;
+  margin: 0px;
+ 
+}
+
+h5{
+  text-align: center;
+  padding:1em 0em 2em 0em;
+}
+ol{
+  
+  width: 100%;
 }
 
 .btn {
@@ -51,12 +80,4 @@ body{
 }
 .dropdown-menu li a:hover {
   background-color: red !important;
-}
-.col-sm-4{
-	color:white;
-	background-color:rgb(127,127,127 0.219);
-}
-#myname{
-	font-size:45px;
-	color:white;
 }

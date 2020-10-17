@@ -29,8 +29,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="Main.jsp">Main Page</a></li>
         <li><a href="https://ilikemediumrare.tistory.com/">BLOG</a></li>
-        <li><a href="photo.jsp">PHOTO</a></li>
-        <li><a href="aboutme.jsp">ABOUT ME</a></li>
+        <li><a href="photo.jsp">PHOTO</a></li>        
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">OTHERS
           <span class="caret"></span></a>
