@@ -1,9 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+h1{
+    margin: 0;
+}
+
 .naviContainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-size: 24px;
     align-items: center;
     color: gray;
+    height: 70px;
+    background-color: red;
+    opacity: 0.5;
 }
 
 .centerAlignCol{
@@ -27,4 +43,17 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+}
+
+.contentJeuk {
+    padding-top: 70px;
+    /* padding: 70px 15px 15px 15px; */
+}
+
+/* C:\jack\bitcamp\team3Project\images\jeuk */
+#who {
+    background-image: url("../images/jeuk/KakaoTalk_20201019_014336048.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
 }
