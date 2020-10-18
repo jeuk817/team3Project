@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+h1{
+    margin: 0;
+}
+
+.naviContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 24px;
+    align-items: center;
+    color: gray;
+    height: 70px;
+    background-color: red;
+    opacity: 0.5;
+}
+
+.centerAlignCol{
+    display: grid;
+    justify-items: center;
+}
+
+.naviRight{
+    display: grid;
+    justify-items: end;
+    gap: 0 20px;
+}
+#homeIcon{
+    font-size: 36px;
+    color: gray;
+}
+
+.bookmarks{
+    list-style: none;
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.contentJeuk {
+    padding-top: 70px;
+    /* padding: 70px 15px 15px 15px; */
+}
+
+/* C:\jack\bitcamp\team3Project\images\jeuk */
+#who {
+    background-image: url("../images/jeuk/KakaoTalk_20201019_014336048.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+.innerContents {
+    padding:20px;
+}
+
+.bg-4 {
+    background-color: #2f2f2f;
+    /* Black Gray */
+    color: #fff;
+}
+
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.rightMsg{
+    display: grid;
+    justify-items: end;
+}
