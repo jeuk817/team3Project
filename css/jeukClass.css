@@ -55,5 +55,9 @@ h1{
     background-image: url("../images/jeuk/KakaoTalk_20201019_014336048.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 1200px;
+}
+
+.innerContents {
+    padding:20px;
 }
