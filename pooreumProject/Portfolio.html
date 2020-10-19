@@ -20,10 +20,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" href="#">AboutMe <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Skills</a>
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            <a class="nav-link" href="#aboutme">About me <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
           </div>
         </div>
       </div>
@@ -35,11 +34,15 @@
           <div class="welcom">Welcomto my First Site!</div>
           <div class="jumbotron-mainImg"><img src="images/1.jpg" alt=""></div>
           <div class="jumbotron-heading text-uppercase">it's nice to meet you</div>
-          <div class="btn btn-primary btn-lg" href="#" role="button">Learn more</div>
+          <a href="#contact">
+            <div class="btn btn-primary btn-lg" href="#" role="button">Contact Me</div>
+          </a>
+          
 
         </div>
       </div>
       <!-- About me -->
+      <section class="about" id="aboutme">
       <div class="container"> 
         <div class="text-center">
           <h1 class="aboutMeHeading text-uppercase">About me</h1>
@@ -55,10 +58,10 @@
           </div>
           <div class="col-md-6">
             <div class="about-icon" id="firstIcon">
-              <i class="fab fa-css3-alt fa-5x"></i>
+              <i class="fab fa-java fa-5x"></i>
             </div>
               <h2 class="front-end">Back-end</h2>
-              <p class="front-end description">Lorem ipsum dolor sit amet.</p> 
+              <p class="front-end description">Java, NodeJs, Django</p> 
           </div>
   
         </div>
@@ -66,7 +69,7 @@
 
 
       <!-- skills -->
-      <section class="skill-section">
+      <section class="skill-section" id="skills">
         <div class="container">
           <div class="text-center">
             <h1>Skills</h1>
@@ -84,7 +87,7 @@
                   <p>99%</p>
                 </div>
                 <div class="progress">
-                  <div class="progress-bar w-70" role="progressbar" style="width: 99%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" style="width: 99%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
   
@@ -101,7 +104,7 @@
               <div class="html">
                 <div class="inner-text">
                   <p>Javscript</p>
-                  <p>99%</p>
+                  <p>80%</p>
                 </div>
                 <div class="progress">
                   <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -111,7 +114,7 @@
               <div class="html">
                 <div class="inner-text">
                   <p>NodeJs</p>
-                  <p>99%</p>
+                  <p>50%</p>
                 </div>
                 <div class="progress">
                   <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -121,7 +124,7 @@
               <div class="html">
                 <div class="inner-text">
                   <p>Java</p>
-                  <p>99%</p>
+                  <p>80%</p>
                 </div>
                 <div class="progress">
                   <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -135,9 +138,10 @@
                 <p class="tools-title-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus animi placeat temporibus pariatur rem, est provident ad porro aspernatur ex cum eius ipsa
                    fugiat dignissimos quae, id dolorum, adipisci amet?</p>
               </div>
-              <div class="etc">
+              <div class="etc text-center">
                 <p>etc</p>
               </div>
+            </div>
 
             </div>
           </div>
@@ -145,11 +149,20 @@
 
       </section>
       
+<!-- contact -->
+      <div class="page-section" id="contact">
+        <div class="container">
+          <div class="text-center">
+            <h1>Contact</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+               Voluptates deleniti dignissimoeus.</p>
+            <a href="https://github.com/vnfma0218/portfolio" target="blank">
+              <i class="fab fa-github fa-3x" ></i>
+            </a>
+          </div>
+        </div>
+      </section>
 
-      <div class="contact">
-        <h1>contact</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates deleniti dignissimos commodi eius vel aspernatur culpa et, quidem dolor nulla recusandae delectus, aliquid alias eum ratione. Dolores ut repellat ducimus.</p>
-      </div>
-
+<!-- portfolio -->
 </body>
 </html>
