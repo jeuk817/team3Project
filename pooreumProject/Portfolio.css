@@ -19,6 +19,9 @@
     
 }
 
+.navbar-toggler-icon{
+    color: gold;
+}
 
 .link{
     padding: 15px;
@@ -48,11 +51,6 @@
     background-size: cover;
 }
 
-.jumbotron-mainImg{
-    max-width: 100%; 
-    height: auto;
-}
-
 
 
 .welcom{
@@ -74,10 +72,11 @@
     padding: 50px;
 }
 
-.container .jumbotron-mainImg img{
+.container main{
+  
+/*    
     width: 160px;
-    height: 160px;
-    
+    height: 160px; */
     border-radius: 5em;
 }
 .container .btn{
@@ -102,6 +101,10 @@
 
 }
 
+.description{
+    margin-top: 50px;
+}
+
 .about i{
     color: dodgerblue;
 }
@@ -121,9 +124,28 @@
     padding: 50px;
 }
 
+.about .container .row{
+    margin-top: 100px;
+}
 .col-md-6{
     padding: 50px;
 }
+
+.company{
+    margin-top: 100px;
+    display: flex;
+    height: 100px;
+  
+}
+.comapny-logo{
+    flex-shrink: 1;
+}
+.company p{
+    flex-shrink: 3;
+    line-height: 100px;
+    margin-left: 100px;
+}
+
 
 /* skills */
 .skill-section h1{
@@ -135,6 +157,10 @@
 }
 .skillbar{
     background-color:#333331;
+}
+
+.skill-section .row{
+    /* margin-bottom: 50px; */
 }
 
 .tools{
@@ -167,7 +193,7 @@
     width: 99%;
 }
 
-.skill-section{
+.skill-section {
     background: #ededa1;
 }
 
