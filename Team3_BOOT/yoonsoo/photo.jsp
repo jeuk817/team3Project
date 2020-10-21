@@ -3,15 +3,15 @@
     <!DOCTYPE html>
     <html>
         <head>
-            <title>Class Page</title>
-            <link rel="stylesheet" href="main.jsp.css">
-            
-            
-            <meta charset="utf-8">    
+            <title>Class Page</title>              
+            <meta charset="utf-8">              
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <link rel="stylesheet" href="yoonsoo.css/main.jsp.css">
+            <link rel="stylesheet" href="yoonsoo.css/slide.css">       
           
         </head>
         <header>
-          <jsp:include page="nav.jsp"></jsp:include>
           </header>
         <body>
             <header>
@@ -22,20 +22,20 @@
 
                 <div class="mySlides fade">
                   <div class="numbertext">1 / 3</div>
-                  <img src="yoonsoo.image/clock.jpg" style="width:100%">
-                  <div class="text">Caption Text</div>
+                  <img src="yoonsoo.image/smell.jpg" style="width:100%">
+                  <div class="text">cat&dog</div>
                 </div>
                 
                 <div class="mySlides fade">
                   <div class="numbertext">2 / 3</div>
-                  <img src="yoonsoo.image/dinner.jpg" style="width:100%">
-                  <div class="text">Caption Two</div>
+                  <img src="yoonsoo.image/somi.jpg" style="width:100%">
+                  <div class="text">Cute Cat</div>
                 </div>
                 
                 <div class="mySlides fade">
                   <div class="numbertext">3 / 3</div>
-                  <img src="yoonsoo.image/launch.jpg" style="width:100%">
-                  <div class="text">Caption Three</div>
+                  <img src="yoonsoo.image/mrpizza.jpg" style="width:100%">
+                  <div class="text">pizza</div>
                 </div>
                 
                 </div>
@@ -65,7 +65,7 @@
                   }
                   slides[slideIndex-1].style.display = "block";  
                   dots[slideIndex-1].className += " active";
-                  setTimeout(showSlides, 6000); // Change image every 2 seconds
+                  setTimeout(showSlides, 4000); // Change image every 2 seconds
                 }
                 </script>
         </body>
