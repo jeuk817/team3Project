@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="yoonsoo.css/main.jsp.css">       
         <link rel="stylesheet" href="yoonsoo.css/slide.css">
-        
+        <script src="js/slide.js"></script>
         <meta charset="utf-8">    
       
     </head>
