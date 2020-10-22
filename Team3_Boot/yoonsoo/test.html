@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="yoonsoo.css/main.jsp.css">       
+        <link rel="stylesheet" href="yoonsoo.css/slide.css">        
+        <meta charset="utf-8">       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="js/slide.js"></script>
+        <script language='javascript'>           
+           
+            
+            
+            </script>
+       
+      
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="Main.html"><span class="glyphicon glyphicon-home"></span>HOME</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="Main.jsp">Main Page</a></li>
+                      <li><a href="https://ilikemediumrare.tistory.com/">BLOG</a></li>
+                      <li><a href="photo.jsp">PHOTO</a></li>                      
+                      <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">OTHERS
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">제욱</a></li>
+                          <li><a href="#">푸름</a></li>
+                          <li><a href="#">용선</a></li>
+                          <li><a href="#">소희</a></li>
+                          <li><a href="#">종현</a></li> 
+                        </ul>
+                      </li>
+                      <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+                    </div>
+        </header>
+        
+           <section id="intro">
+               <h2 style="text-align: center;">최윤수</h2>
+               
+               <div class="column" >
+                <h1>I am</h1><hr>
+                    
+                    <p>배운것 : JAVA, Oracle, HTML, CSS, javascript...</p><br>
+                    <p>좋아하는 것 : 음식, 고양이, 유튜브</p><br>
+                    <p>준비중 : 정보처리기사</p><br>
+                    <p>                      
+                    <iframe width="300" height="205" src="https://ilikemediumrare.tistory.com/"></iframe>
+                    </p>   
+                  
+                </div>
+                <div class="column" >
+                    <h1>I want</h1><hr>
+                    <img src="yoonsoo.image/cattower.jpg" style="max-height: 400px;" >
+                  </div>
+                <div class="column" >
+                 <h1>I like</h1><hr>
+                <form name='frm'>
+
+                    <table border='1' >
+                        <tr>
+                            <td onclick='fncMove(1)'>◀</td>
+                            <td><img id='im0' src='yoonsoo.image/slide/1.png' border='0'></td>
+                            <td><img id='im1' src='yoonsoo.image/slide/2.png' border='0'></td>                                                      
+                            <td onclick='fncMove(-1)'>▶</td>
+                        </tr>
+                    </table>     
+                </form>
+                <br><br>            
+                <iframe width="350" height="190" src="https://www.youtube.com/embed/uNT_AxXrUGs?start=11?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>                       
+           </section>
+
+           <footer>
+            <ol>사용한 클래스
+                <li>class="navbar navbar-default navbar-fixed-top" : 기본형태의 상단고정 navbar사용</li>
+                <li>class="glyphicon glyphicon-home" : glyphicon사용</li>
+                <li>class="dropdown" : script를 이용해 마우스클릭으로 toggle되는 dropdown클래스</li>
+            </ol>      
+
+           </footer>
+           
+        
+    </body>
+</html>
