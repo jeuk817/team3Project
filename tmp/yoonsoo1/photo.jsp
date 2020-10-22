@@ -46,7 +46,6 @@
                   <span class="dot"></span> 
                   <span class="dot"></span> 
                 </div>
-                <!--script(slideshow)-->
                 <script>
                 var slideIndex = 0;
                 showSlides();
